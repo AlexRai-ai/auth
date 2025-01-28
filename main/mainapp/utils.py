@@ -3,10 +3,10 @@ import requests
 def send_sms_otp(mobile_number, otp):
   # Configuration details
   api_uri = 'https://www.smsidea.co.in/smsstatuswithid.aspx'
-  registered_mobile = '9879409140'
-  password = 'QXPP#Bs5hNGGB@8fc'
-  sender_id = 'TSNEWZ'
-  template_id = '1707168274974199770'  # Template ID for OTP message
+  registered_mobile = 'your mobile'
+  password = 'Qyour password'
+  sender_id = 'your sender id'
+  template_id = 'your template id'  # Template ID for OTP message
 
   # Validate mobile number format
   if not mobile_number.isdigit() or len(mobile_number) != 10:
